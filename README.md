@@ -377,7 +377,7 @@ Converts the source document to HTML.
      set `options.includeDefaultStyleMap` to `false`.
 
   * `includeHeadersAndFooters`: by default, headers and footers are not included in the output.
-    Set this option to `True` to include them at the start and end of the output.
+    Set this option to `True` to include them at the start and end of the output. Thanks Jason ([moo2u2](https://github.com/moo2u2)) for creating the JS port
 
   * `externalFileAccess`: Source documents may reference files outside of the source document.
     Access to any such external files is disabled by default.
