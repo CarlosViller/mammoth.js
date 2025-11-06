@@ -1,8 +1,13 @@
 {
-  "name": "mammoth",
+  "name": "@deltaaaaq/mammoth",
   "version": "1.11.0",
-  "author": "Michael Williamson <mike@zwobble.org>",
-  "description": "Convert Word documents from docx to simple HTML and Markdown",
+  "author": "carlos.viller98@gmail.com",
+  "contributors": [
+    "Michael Williamson (original author)",
+    "Jason (moo2u2) (header/footer support for JS port)",
+    "marginalhours (original header/footer support form Python package)"
+  ],
+  "description": "Convert Word documents from docx to simple HTML and Markdown, with header/footer support",
   "keywords": [
     "docx",
     "html",
@@ -14,7 +19,7 @@
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mwilliamson/mammoth.js.git"
+    "url": "https://github.com/CarlosViller/mammoth.js.git"
   },
   "dependencies": {
     "@xmldom/xmldom": "^0.8.6",
