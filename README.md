@@ -376,6 +376,9 @@ Converts the source document to HTML.
      To stop using the default style map altogether,
      set `options.includeDefaultStyleMap` to `false`.
 
+  * `includeHeadersAndFooters`: by default, headers and footers are not included in the output.
+    Set this option to `True` to include them at the start and end of the output.
+
   * `externalFileAccess`: Source documents may reference files outside of the source document.
     Access to any such external files is disabled by default.
     To enable access when converting trusted source documents,
